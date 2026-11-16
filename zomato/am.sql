@@ -1,0 +1,5 @@
+SELECT
+    CURRENT_USER(),
+    CURRENT_ROLE(),
+    CURRENT_ACCOUNT();
+
