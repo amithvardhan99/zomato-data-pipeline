@@ -1,6 +1,17 @@
 
-target/
+# dbt
+zomato/target/
 dbt_packages/
+
+# Logs
 logs/
-.env
-models/staging/_sources.yml
+
+# Environment files with credentials
+*.env
+ai/.env
+airflow/.env
+.env.*
+
+# dbt profiles containing database credentials
+**/profiles.yml
+
